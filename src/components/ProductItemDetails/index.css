@@ -1,0 +1,64 @@
+/* Write your CSS here */
+.error-view {
+  height: 500px;
+  width: 500px;
+}
+.error-view-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.error-heading {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 50px;
+}
+.continue-shopping-btn {
+  background-color: #3b82f6;
+  color: #ffffff;
+  width: 200px;
+  border: none;
+}
+.details-section-container {
+  padding: 50px;
+}
+.detail-image {
+  width: 500px;
+  border-radius: 10px;
+  height: 600px;
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  background-color: #3b82f6;
+  border-radius: 6px;
+  padding: 6px 16px;
+}
+.line {
+  border: 1px solid grey;
+}
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.add-to-cart {
+  background-color: #3b82f6;
+  color: #ffffff;
+  border: none;
+  width: 200px;
+}
+.count {
+  color: black;
+  font-size: 20px;
+}
+.un-order-list {
+  display: flex;
+  flex-wrap: wrap;
+}
